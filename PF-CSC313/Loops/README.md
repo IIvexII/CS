@@ -92,6 +92,7 @@ Enter rows: 5
 **Final Condition**: column >= 6-rows && column <= 4+rows && space
 
 **General Condition for Dynamic program**: column >= (input+1)-rows && column <= (input-1)+rows && space
+                                        
                                         for second "for" condition: columns<=input*2-1
                                         
 [Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c4.cpp)
