@@ -113,3 +113,21 @@ Enter rows: 5
 
 [Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c5.cpp)
 
+### 6. Diamond using *
+
+**Output**
+
+Input -> 4
+```
+Enter rows: 4
+   *   
+  * *  
+ * * * 
+* * * *
+ * * *  
+  * *   
+   *
+```
+
+[Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c5.cpp)
+
