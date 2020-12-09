@@ -20,7 +20,7 @@ int main(){
         // which are equal to the row we are in.
         // e.g for 2nd row, columns will be 2 as well.
         for(int column=1; column<=rows; column++){
-            cout << "*";
+            cout << "* ";
         }
         cout << endl;
     }
