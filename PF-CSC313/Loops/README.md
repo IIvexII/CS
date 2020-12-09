@@ -33,3 +33,19 @@ Enter number of rows: 7
 ```
 
 [Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c2.cpp)
+
+### 3. Print half pyramid using alphabets
+
+**Output**
+
+Input -> D
+```
+Enter the last alphabet: D
+A 
+A B 
+A B C 
+A B C D 
+```
+
+[Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c3.cpp)
+
