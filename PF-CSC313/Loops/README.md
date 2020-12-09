@@ -129,5 +129,5 @@ Enter rows: 4
    *
 ```
 
-[Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c5.cpp)
+[Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c6.cpp)
 
