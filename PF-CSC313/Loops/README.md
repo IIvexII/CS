@@ -131,3 +131,18 @@ Enter rows: 4
 
 [Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c6.cpp)
 
+### 7. Print pyramid using numbers.
+
+**Output**
+
+Input -> 5
+```
+Enter rows: 5
+    1    
+   2 3   
+  4 5 6
+ 7 8 9 1
+2 3 4 5 6
+```
+
+[Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/Loops/c7.cpp)
