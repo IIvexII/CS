@@ -11,4 +11,4 @@ Enter Number(0 to exit)>> 7
 Enter Number(0 to exit)>> 0
 Average Numbers: 5.75
 ```
-[Source Code]()
+[Source Code](https://github.com/IIvexII/CS/blob/main/PF-CSC313/goto%20Statement/c1.cpp)
