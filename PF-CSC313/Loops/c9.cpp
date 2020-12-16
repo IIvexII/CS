@@ -1,3 +1,9 @@
+/*
+    Date: 16-12-2020
+    Purpose: Write a program to calculate sum of counting(1-5).
+    Author: Zafeer
+*/
+
 #include <iostream>
 
 using namespace std;
