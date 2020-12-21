@@ -9,8 +9,7 @@ using namespace std;
 
 
 int main(){
-    int degree=0,
-        radian=0;
+    int degree=0;
 
     cout << "Degree" << "\t\t" << "Radian" << endl;
     while(degree<=360){
