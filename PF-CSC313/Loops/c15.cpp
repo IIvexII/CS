@@ -20,9 +20,9 @@ int main(){
     number = user_inp;
 
     while(number!=0){
-        digit = number%10;
-        rev_num = (rev_num*10)+digit;
-        number/=10;
+        digit = number%10;              // Gives last digit.
+        rev_num = (rev_num*10)+digit;   // add that number in reverse variable
+        number/=10;                     // remove last number from number variable.
     }
 
     if(rev_num==user_inp)
