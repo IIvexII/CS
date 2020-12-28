@@ -4,23 +4,32 @@
 #include <iostream>
 using namespace std;
 
-int func();
+// Prototype
+int validator();
 
 // Global Variable
-int var_1 = 10;
+int age=18;
 
 int main(){
-    // Local Variable
-    int var_1 = 30;
-    int var_2=20;
 
-    cout << "var_1 = " << var_1 << " (Local)" << endl;
-    cout << "var_2 = " << var_2 << " (Local)" << endl << endl;
-    cout << "var_1 = " << ::var_1 << " (global)" << endl << endl;
-    cout << "var_1 = " << func() << " (global using function)";
+    if(validator())
+        cout << "Come inside, you are mature." << endl;
+    else
+        cout << "Grow up and come back when you are 18 or above." << endl;
+    
     return 0;
 }
 
-int func(){
-    return var_1;
+// validator function.
+int validator(){
+    int age;
+    
+    // Ask age from user. 
+    cout << "Enter your age: ";
+    cin >> age;
+
+    if (age<::age)
+        return 0;        
+    else
+        return 1;
 }
