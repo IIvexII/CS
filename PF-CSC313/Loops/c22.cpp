@@ -16,7 +16,14 @@
 using namespace std;
 
 int main(){
-
-
+    int i,j=1;
+    for(i=7;i>=1; i--){
+        while(j<=i){
+            cout << "* ";
+            j++;
+        }
+        cout << endl;
+        j=1;
+    }
     return 0;
 }
