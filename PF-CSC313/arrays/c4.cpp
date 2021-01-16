@@ -7,16 +7,26 @@
 using namespace std;
 
 int main(){
-    int arr[]={45,434,234,5,3,4,53,3,42,3,2323,34,6,65,45,3425,56,75,4,34,53};
-    int max=0;
+    int arr[10]={}, usr_inp;
+    int min=INT_MAX,
+        min=INT_MIN;
 
-    for(int x:arr)
+    for(int i=0; i<10; i++){
+        cout << "Enter Value " << i+1 << ": ";
+        cin >> usr_inp;
+        arr[i]=usr_inp;
+    }
+
+    for(int x:arr){
         // If element in array is greator then max then
         // max will be equal to that element.
+        if(x<min)
+            min=x;
         if(x>max)
-            max=x;
-
+            max=x
+    }
     cout << "Maximum Number is: " << max << endl;
+    cout << "Minimum Number is: " << min << endl;
 
     return 0;
 }
